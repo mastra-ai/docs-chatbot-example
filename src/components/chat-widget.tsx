@@ -1,9 +1,8 @@
-"use client";
-import { CopilotKit } from "@copilotkit/react-core";
-import { CopilotPopup } from "@copilotkit/react-ui";
-import "@copilotkit/react-ui/styles.css";
-import React from "react";
-import "@copilotkit/react-ui/styles.css";
+'use client';
+import { CopilotKit } from '@copilotkit/react-core';
+import { CopilotPopup } from '@copilotkit/react-ui';
+import '@copilotkit/react-ui/styles.css';
+import React from 'react';
 
 const DocsChat: React.FC = () => {
   return (
@@ -24,8 +23,8 @@ const Chat = () => {
       <div className="rounded-lg w-8/10 h-8/10">
         <CopilotPopup
           labels={{
-            title: "Mastra Assistant",
-            initial: "Need any help?",
+            title: 'Mastra Assistant',
+            initial: 'Need any help?',
           }}
         />
       </div>

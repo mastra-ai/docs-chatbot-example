@@ -4,7 +4,7 @@ import {
   copilotRuntimeNextJSAppRouterEndpoint,
 } from "@copilotkit/runtime";
 
-import { MastraDocsAgent } from "@/app/_lib/mastra-agent";
+import { MastraDocsAgent } from "@/lib/mastra-agent";
 import { NextRequest } from "next/server";
 
 const docsAgent = new MastraDocsAgent({
