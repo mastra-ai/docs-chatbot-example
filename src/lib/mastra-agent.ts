@@ -49,8 +49,6 @@ export class MastraDocsAgent extends AbstractAgent {
       config?.mastraClient ??
       new MastraClient({
         baseUrl: process.env.MASTRA_AGENT_URL ?? "",
-        // how do headers work?
-        // headers: {}
       });
   }
 
