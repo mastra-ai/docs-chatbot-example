@@ -1,8 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Docs Chatbot Example
+
+A Next.js application that demonstrates a documentation chatbot using Mastra and CopilotKit. This project provides a customizable AI assistant that can help users navigate documentation and answer questions.
+
+## Features
+
+- AI-powered documentation assistant
+- Interactive chat widget
+- Integration with Mastra agent
+- Modern UI with Tailwind CSS
+- Next.js App Router
+
+## Prerequisites
+
+- Node.js 18.x or later
+- npm, yarn, pnpm, or bun
+
+## Environment Setup
+
+Create a `.env.local` file in the root directory with the following variables:
+
+```bash
+MASTRA_AGENT_URL=your_mastra_agent_url
+```
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+Next, run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +49,27 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/app`: Next.js App Router pages and layouts
+- `src/components`: React components including the chat widget
+- `src/lib`: Core functionality including the Mastra agent
+- `src/app/api`: API routes including CopilotKit endpoints
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Mastra Documentation](https://docs.mastra.ai)
+- [CopilotKit Documentation](https://docs.copilotkit.ai)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deploy the project using [Vercel](https://vercel.com) for the best experience:
 
-## Deploy on Vercel
+```bash
+vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Or use the [Vercel Platform](https://vercel.com/new) from their website.
