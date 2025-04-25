@@ -19,6 +19,8 @@ A Next.js application that demonstrates a documentation chatbot using Mastra and
 
 Create a `.env.local` file in the root directory with the following variables:
 
+The `MASTRA_AGENT_URL` is the deployment URL of the Mastra agent.
+
 ```bash
 MASTRA_AGENT_URL=your_mastra_agent_url
 ```
