@@ -57,13 +57,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 - `src/app`: Next.js App Router pages and layouts
 - `src/components`: React components including the chat widget
-- `src/lib`: Core functionality including the Mastra agent
+- `src/lib`: Core functionality including the runtime Mastra agent
 - `src/app/api`: API routes including CopilotKit endpoints
 
 ## Learn More
 
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Mastra Documentation](https://docs.mastra.ai)
+- [Mastra Documentation](https://mastra.ai/en/docs)
 - [CopilotKit Documentation](https://docs.copilotkit.ai)
 
 ## Deployment
